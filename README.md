@@ -8,3 +8,6 @@ includes
 encludes
 files
 
+- 直接执行tsc文件 他会使用tsconfig.json 文件中的配置
+- 如果 执行tsc xxx.ts tsc会使用自己默认的配置文件
+- 执行 ts-node xxx.ts ts-node 会使用项目中tsconfig.json 的配置
